@@ -42,22 +42,12 @@ void loop()
 
     voltage = getVoltage();
 
-    Serial.print(voltage);
-    Serial.println (" V");
-
-    Serial.print("Servo Pos: ");
-    Serial.println(servo_pos);
-
-    Serial.print("Approx Best: ");
-    Serial.println(approx_best_v);
-
-    Serial.println("");
+    Serial.println(voltage);
 
     //Initiate manual search
     if(voltage > (approx_best_v + .04) || voltage < (approx_best_v-.04)){
       
         approx_best_v = voltage;
-        Serial.println("Adjusting.");
         int iters = 0;
         
         while(!((servo_pos + 5) > 135)){
