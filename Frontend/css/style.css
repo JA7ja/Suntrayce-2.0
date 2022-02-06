@@ -110,6 +110,34 @@ nav a:focus {
   padding: 1.5em 1.5em;
 }
 
+.auth-form {
+  padding: 2em 2em;
+}
+
+.operation {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  background-color: var(--color-three);
+  border: none;
+  color: var(--color-one);
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+}
+
+.v {
+  background-color: var(--color-three);
+  text-align: center;
+}
+
 footer {
   position: absolute;
   bottom: 0;
