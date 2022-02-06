@@ -2,9 +2,9 @@
 
 :root {
   --color-text: #aaaaaa;
-  --color-one: #b1c479;
-  --color-two: #e9e981;
-  --color-three: #6e916c;
+  --color-one: #d1e499;
+  --color-two: #f9f991;
+  --color-three: #8eb18c;
 
   --font-fam-basic: 'Optima', sans-serif;
   --font-fam-logo: 'Turret Road', cursive;
@@ -40,6 +40,7 @@ h2 {
   color: var(--color-one);
   line-height: 0.8;
   font-size: 2.66rem;
+  letter-spacing: 4px;
 }
 
 h3 {
@@ -99,5 +100,20 @@ nav a:focus {
   justify-content: center;
   display: flex;
   flex-direction: row;
-  padding: 0.5rem
+}
+
+.about_us {
+  padding: 1.5em 1.5em;
+}
+
+.features-title {
+  padding: 1.5em 1.5em;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 3rem;
 }
